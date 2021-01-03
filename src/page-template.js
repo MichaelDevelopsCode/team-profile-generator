@@ -51,7 +51,7 @@ const generateEngineers = engineers => {
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">ID: ${engineers[x].id}</li>
                         <li class="list-group-item">Email: <a href="mailto:${engineers[x].email}">${engineers[x].email}</a></li>
-                        <li class="list-group-item">Github: ${engineers[x].github}</li>
+                        <li class="list-group-item">Github: <a href="https://github.com/${engineers[x].github}" target="_blank">${engineers[x].github}</a></li>
                     </ul>
                 </div>
             </div>
